@@ -21,10 +21,8 @@ class GoogleSheetService:
             client = gspread.authorize(creds)
             sheet = client.open_by_key(self.SHEET_ID).sheet1
             
-            # Get all values including headers
             all_values = sheet.get_all_values()
             
-            # Skip header row
             rows = all_values[1:]
             
             new_entries = []
