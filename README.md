@@ -73,19 +73,31 @@ python manage.py runserver
 | /api/user-data/                 | GET     | List all entries       |
 | /api/user-data/`<id>`/          | GET     | Get single entry       |
 
-### Data Format
+### Response Format
 
-```json
-{
-    "id": 101,
-    "name": "James Davis",
-    "age": 41,
-    "gender": "male",
-    "lifestyle_score": 2.0,
-    "timestamp": "2024-10-28T02:59:39-05:00",
-    "insurance_risk_score": 0.605,
-    "diabetes_risk_score": 0.65625
-},
+```Array of Object
+[
+    {
+        "id": 1,
+        "name": "Lisa Smith",
+        "age": 43,
+        "gender": "female",
+        "lifestyle_score": 6.3,
+        "timestamp": "2024-09-29T20:23:30-05:00",
+        "insurance_risk_score": 0.4,
+        "diabetes_risk_score": 0.45375
+    },
+    {
+        "id": 2,
+        "name": "David Wilson",
+        "age": 78,
+        "gender": "male",
+        "lifestyle_score": 8.8,
+        "timestamp": "2024-10-01T19:46:35-05:00",
+        "insurance_risk_score": 0.44999999999999996,
+        "diabetes_risk_score": 0.5475
+    },
+]
 ```
 
 ## Project Structure
