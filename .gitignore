@@ -1,4 +1,3 @@
-# Python
 __pycache__/
 *.py[cod]
 *$py.class
@@ -20,27 +19,27 @@ wheels/
 .installed.cfg
 *.egg
 
-# Virtual Environment
+
 venv/
 ENV/
 
-# Django
+
 *.log
 local_settings.py
 db.sqlite3
 db.sqlite3-journal
 media
 
-# Credentials
+
 .env
 service_account.json
 
-# IDE
+
 .idea/
 .vscode/
 *.swp
 *.swo
 
-# OS
+
 .DS_Store
 Thumbs.db

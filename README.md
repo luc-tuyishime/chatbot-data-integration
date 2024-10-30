@@ -42,8 +42,8 @@ name, age, gender, lifestyle_score, timestamp
 
 ```
 # Clone repository
-git clone https://github.com/yourusername/chatbot-integration.git
-cd chatbot-integration
+git clone https://github.com/luc-tuyishime/chatbot-data-integration.git
+cd chatbot-data-integration
 
 # Virtual environment
 python -m venv venv
